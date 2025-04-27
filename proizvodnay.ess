@@ -1,0 +1,19 @@
+start
+new x number
+set x 7
+new const number
+set const 3
+log string const >> " ' = 0" 
+log string "x' = 1" 
+log string const >> "* x = " >> const
+new k number
+set k x + x
+log string " ( x ^ 2 )' = 2x = "  >> k
+log string "(sin" >> x >> ")' = " >> "cos" >> x
+log string "(cos" >> x >> ")' = " >> "-sin" >> x
+new b number 
+set b x + x + x + x + x + x + x
+new y number
+set y b + b + b
+log string "(x^3)' = 3x^2 ="  >> y
+finish
