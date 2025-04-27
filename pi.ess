@@ -1,0 +1,13 @@
+start
+new a number
+set a 17
+new b number
+set b 5
+new sum number
+set sum 0
+loop a (a > 7)
+    set a a - b
+    set sum sum + 1
+end a
+log string sum >> "." >> a >> "/" >> b 
+finish
