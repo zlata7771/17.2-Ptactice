@@ -1,0 +1,12 @@
+start
+new a number
+set a 1
+new table string
+log string "loop table (11 > a)"
+log string "  log string a"
+log string "  set a a + 1"
+loop table (11 > a)
+  log string a
+  set a a + 1
+end table
+finish
