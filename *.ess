@@ -1,0 +1,58 @@
+start
+new k number
+set k 1
+log string "Таблица умножения на 1:"
+loop table (10> k)
+  log string k 
+  set k k + 1
+end table
+new table2 string
+log string "Таблица умножения на 2:"
+set k 2
+loop table2 (20 > k)
+  log string k
+  set k k + 2
+end table2
+set k 3
+log string "Таблица умножения на 3:"
+loop table3 (30 > k)
+  log string k
+  set k k + 3
+end table3
+set k 4
+log string "Таблица умножения на 4:"
+loop table4 (40 > k)
+  log string k
+  set k k + 4
+end table4
+set k 5
+log string "Таблица умножения на 5:"
+loop table5 (50 > k)
+  log string k
+  set k k + 5
+end table5
+log string "Таблица умножения на 6:"
+set k 6
+loop table6 (60 > k)
+  log string k
+  set k k + 6
+end table6
+set k 7
+log string "Таблица умножения на 7:"
+loop table7 (70 > k)
+  log string k
+  set k k + 7
+end table7
+set k 8
+log string "Таблица умножения на 8"
+loop table8 (80 > k)
+  log string k
+  set k k + 8
+end table8
+set k 9
+log string "Таблица умножения на 9"
+loop table9 (90> k)
+  log string k
+  set k k + 9
+end table9
+finish
