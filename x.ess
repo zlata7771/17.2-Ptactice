@@ -1,0 +1,9 @@
+start
+new a number
+set a 2
+new x number
+loop eq (6 > a)
+  set a a + 2
+end eq
+log string "x = " >> a
+finish
